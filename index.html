@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collin’s Work Todo List</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background: #f9f9f9; }
+    h1 { color: #2E75B6; font-size: 28px; border-bottom: 3px solid #2E75B6; padding-bottom: 8px; margin-bottom: 4px; }
+    .updated { color: #666; font-style: italic; font-size: 13px; margin-bottom: 24px; }
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 12px; }
+    h2.personal { color: #8B5CF6; }
+    h2.active { color: #2E75B6; }
+    h2.completed { color: #2E75B6; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 8px; }
+    th { background: #2E75B6; color: #fff; padding: 8px 10px; text-align: left; border: 1px solid #2E75B6; }
+    th.personal-header { background: #8B5CF6; border-color: #8B5CF6; }
+    .legend { margin-top: 28px; padding-top: 12px; border-top: 1px solid #ccc; font-size: 12px; color: #666; }
+    .legend strong { font-size: 12px; }
+    .footer { margin-top: 16px; font-size: 11px; color: #999; text-align: center; }
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      table { font-size: 11px; }
+      th, td { padding: 4px 6px !important; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Work Todo List</h1>
+  <p class="updated">Last updated: March 30, 2026</p>
+
+  <h2 class="personal">Personal Tasks (3)</h2>
+  <table>
+    <tr>
+      <th class="personal-header" style="width:40px;">#</th>
+      <th class="personal-header">Type</th>
+      <th class="personal-header">Task</th>
+      <th class="personal-header">Status</th>
+      <th class="personal-header">Due Date</th>
+    </tr>
+    <tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#8B5CF6;font-weight:bold;">P1</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Personal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Go to BMO and get RRSP and bank records for taxes</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#8B5CF6;font-weight:bold;">P2</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Personal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Get blood work done for new medicine</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#8B5CF6;font-weight:bold;">P3</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Personal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Call Hypertension Clinic and book appointment</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Julie Croot at 604.806.8735 ext 2</span>
+        </td>
+      </tr>
+  </table>
+
+  <h2 class="active">Active Tasks (18)</h2>
+  <table>
+    <tr>
+      <th style="width:40px;">#</th>
+      <th>Type</th>
+      <th>Task</th>
+      <th>Status</th>
+      <th>Due Date</th>
+    </tr>
+    <tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">5</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Richmond Centre - Complete PH1 Lessons Learned Feedback Form</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">March 13, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">12</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7303</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">RDKB GHG Reduction & Resiliency Study Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">April 13, 2026</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Reached out to Adele – she notes we have not received all subconsultant proposals</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Check in again with her this Friday to confirm</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">14</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7292</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Poirier Sports and Leisure Complex Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">March 19, 2026</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Draft is finished – issued to Corey for her to finalize</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">16</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7306</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Prime Cowichan Valley BCA Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">March 19, 2026</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Draft is complete – issued to Adele for her to finalize and comment on</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">18</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Develop Tech Stack Presentation to Partners</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">March 26, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">20</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Florence RFP - Go/No-Go, Reach out to Sub’s</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#333;">March 18, 2026</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Met with the architect – they are going to submit</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Reached out to cost consultant – haven’t heard back yet</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Need to follow up with cost consultant</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">24</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Respond to Whitmore’s request for a meeting to deal with the peer review</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Followed up with a voicemail and an email</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Will need to follow up again sometime this week</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">25</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Update Recipe for Success</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Received Graham’s comments</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Waiting for Rob’s comments – follow up with Rob end of today if not received</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">26</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Email new headshot staff members to confirm they are okay with images for marketing documents</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Email sent out to all staff</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Some staff are responding – need to follow up on all their emails and confirm</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">29</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Selkirk College Archive Expansion RFP Review</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">30</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">KPU Air Source Heat Pump Installation RFP</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Prime consulting plan issued to Adele</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Template and emails have been issued to Adele</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Sub consultant contacts have been issued to Adele</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Waiting for Adele to schedule a kickoff meeting</span><br><span style="color:#555;font-style:italic;font-size:13px;">• Need to get somebody to attend the walk-through</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">31</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7304</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Program Adviser – Energy and Building Assessments</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Follow up with Bhavina and Michael to see status on proposal</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">32</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7325</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">VGH Jack Bell Research Center Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Need to develop drafts and send them to Bhavina</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">33</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7323</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">BGIS Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Reach out to Sarah and see where we are with this</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">34</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7326</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Regional District of Central Kootenay Facility and Building Condition Assessment</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Need to develop prime consulting plan and issue it to Raphaella for her to execute</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">35</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7324</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Lynn Valley Fire Station</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Follow up with Corey and see if she needs anything else from me</span>
+        </td>
+      </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">36</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7329</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Terraces Withdrawal Facility Planning Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Develop draft proposal and send to Bhavina</span>
+        </td>
+      </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">37</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7327</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">YMCA West District Consulting Services</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#C0392B;font-weight:bold;">To Do</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">No deadline</td>
+    </tr><tr>
+        <td style="padding:4px 10px;border:1px solid #ccc;background:#FFF9E6;"></td>
+        <td colspan="4" style="padding:8px 20px;border:1px solid #ccc;background:#FFF9E6;">
+          <strong style="color:#996600;font-size:13px;">Notes:</strong><br>
+          <span style="color:#555;font-style:italic;font-size:13px;">• Reach out to Ben and Raphaella and see where we are with this</span>
+        </td>
+      </tr>
+  </table>
+
+  <h2 class="completed">Recently Completed (14)</h2>
+  <table>
+    <tr>
+      <th style="width:40px;">#</th>
+      <th>Type</th>
+      <th>Task</th>
+      <th>Status</th>
+      <th>Completed</th>
+    </tr>
+    <tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">10</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 6081</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Norland RCMP - Meet with team about forecasting shortfall</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">Completed</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">2</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 6531</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">PG LTC - Complete Facility Manager Comments Log</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 12, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">4</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Review Jasmine’s Email regarding Partner Activity Planning</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 12, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">6</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7298</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Proposal - Nadleh Whuten Draft Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 12, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">7</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7299</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Proposal - 845 Marine Dr RTU Rep</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 12, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">8</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Proposal - Musqueam Indian Band Port Office Renovation Draft</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 12, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">1</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Complete AI Proposal Writing</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 16, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">15</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7305</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Douglas College - Concourse Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 23, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">13</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project 7297</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Douglas College - Kitchen Proposal</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 23, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">21</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Project</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">PG LTC Peer Review Response</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 23, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">22</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Review Clearwater County Fee from Ben</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 23, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">23</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Phone Manulife regarding insurance question</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 26, 2026</td>
+    </tr><tr style="">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">27</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Finalize IPD Presentation and send to Graham for comments</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 28, 2026</td>
+    </tr><tr style="background:#F2F7FB;">
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#2E75B6;font-weight:bold;">28</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#555;">Admin</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;">Check Alberta P.Eng email for any action items</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#27AE60;font-weight:bold;">Done</td>
+      <td style="padding:6px 10px;border:1px solid #ccc;color:#999;">March 28, 2026</td>
+    </tr>
+  </table>
+
+  <div class="legend">
+    <strong>Status Key:</strong>
+    <span style="color:#C0392B;font-weight:bold;">To Do</span> – Not yet started &nbsp;|&nbsp;
+    <span style="color:#E67E22;font-weight:bold;">In Progress</span> – Currently working on &nbsp;|&nbsp;
+    <span style="color:#27AE60;font-weight:bold;">Done</span> – Completed
+  </div>
+  <div class="footer">Collin’s Personal Assistant – Updated automatically</div>
+</body>
+</html>
